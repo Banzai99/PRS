@@ -27,7 +27,7 @@ int main(int argc, const char* argv[]) {
 	/* generate 2*LCG_M - 1 random values */
 	x = seed;
 	while(i < 2*LCG_M - 1) {
-		fprintf(stdout, "%9f\n", ((double)x)/(LCG_M-1));
+		fprintf(stdout, "%9f\n", (((double)x)/(LCG_M-1)) *(5 - 2) + 2);
 		x = ((LCG_A*x) + LCG_C) % LCG_M;
 		i++;
 	}

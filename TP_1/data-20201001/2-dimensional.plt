@@ -29,5 +29,5 @@ unset key
 unset grid
 
 # plot the points from the data file
-plot "a65539m2pow31.log" using 1:2 title "" with points pt 5 ps 0.1 lc rgb "#AAAAAA"
+plot "lcg_minstd2D.log" using 1:2 title "" with points pt 5 ps 0.1 lc rgb "#AAAAAA"
 

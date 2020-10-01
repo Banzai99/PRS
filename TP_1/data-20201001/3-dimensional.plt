@@ -41,6 +41,6 @@ set ticslevel 0
 set view 60,327
 
 # plot the points from the data file
-splot "a65539m2pow31.log" u 1:2:3 title "" with points pt 5 ps 0.1 lc rgb "#AAAAAA"
+splot "lcg_minstd3D.log" u 1:2:3 title "" with points pt 5 ps 0.1 lc rgb "#AAAAAA"
 
 
